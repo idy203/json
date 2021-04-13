@@ -1,0 +1,95 @@
+body {
+  background-color: #d8c5b6;
+  font-family: Gill Sans;
+  color: #7c7966;
+  background-image: url(https://www.transparenttextures.com/patterns/asfalt-dark.png);
+}
+
+
+
+.heading{
+  text-align: center;
+
+}
+
+.taemin{
+  position: relative;
+     top: 0;
+     left: 0;
+     z-index: 2;
+     border-radius: 25px;
+}
+
+.gold{
+  opacity: 70%;
+  position: absolute;
+     top: 60px;
+    right: 200px;
+width: 1000px;
+z-index: 1;
+padding-bottom: 100px;
+
+}
+
+body * {
+  color: #363429;
+
+
+}
+
+
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 1vmin;
+  margin: 10px;
+  font-size: 32px;
+  border-radius: 25px;
+
+}
+
+h3{
+  color: #65580b;
+  padding-left: 10px;
+}
+
+#outputElement {
+border-radius: 25px;
+padding-left: 10px;
+background-color: #a9a9a6;
+}
+
+.contentItem {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  height: 100%;
+
+}
+
+
+.contentItem ul {
+  flex-grow: 1;
+}
+
+
+h4{
+  font-weight: bold;
+  padding-left: 5px;
+
+}
+
+.footerImageContainer {
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+}
+
+.footerImage {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
