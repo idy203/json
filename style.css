@@ -53,6 +53,7 @@ body * {
 h3{
   color: #65580b;
   padding-left: 10px;
+  height: 130px;
 }
 
 #outputElement {

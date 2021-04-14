@@ -9,7 +9,8 @@ let contentGridElement = document.getElementById('contentGrid');
 let jsonDatabase = [
   {
       "title" : "NEVER GONNA DANCE AGAIN: ACT 1",
-      "picture_url" : "https://static.wikia.nocookie.net/kpop/images/3/3b/Taemin_Never_Gonna_Dance_Again_-_Act_1_digital_album_cover.png/revision/latest?cb=20200907180213",
+      // "picture_url" : "https://static.wikia.nocookie.net/kpop/images/3/3b/Taemin_Never_Gonna_Dance_Again_-_Act_1_digital_album_cover.png/revision/latest?cb=20200907180213",
+      "picture_url" : "ngda1.png",
       "bg_color" : "#7e7e7e",
       "songs" : ["Criminal", "Strangers", "Famous-Korean Version", "Just Me and You", "2 KIDS", "Black Rose", "Waiting For", "Clockwork", "Nemo"]
     },
@@ -84,3 +85,5 @@ function createElementProper(incomingJSON) {
   contentGridElement.appendChild(newContentElement);
 
 }
+
+AOS.init();
